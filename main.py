@@ -1,5 +1,8 @@
 import subprocess
-WD="/home/smthing/songs" # Change this to your working directory
+from pathlib import Path
+
+home = Path.home()
+WD=f"{home}/Youtubemp3-download" # Change this to your working directory
 DOWNLOAD_DIR=f"{WD}/downloads" # Change this to your desired download directory
 subprocess.run(["mkdir", "-p", f"{DOWNLOAD_DIR}"])
 songs=[]
