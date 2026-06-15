@@ -6,9 +6,14 @@
 
 2.Add the links of videos you want to download inside songs.txt , each link comma seperated [Follow format in @sample.txt]
 
-3.Run the python script
+# Run the python script
 
+To download songs in songs.txt
 ```
 python3 main.py
 
+```
+To shorten/clean song names in downloads
+```
+python3 main.py cleanname
 ```
